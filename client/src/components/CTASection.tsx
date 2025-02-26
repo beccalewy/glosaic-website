@@ -17,11 +17,11 @@ export function CTASection() {
         <Button
           variant="outline"
           size="lg"
-          className="inline-block border-2 border-white rounded-full px-12 py-6 mb-8 hover:bg-white/10 min-w-max"
+          className="border-2 border-white rounded-full mb-8 hover:bg-white/10"
         >
-          <h2 className="text-2xl md:text-3xl font-bold tracking-wider text-white px-4">
+          <span className="text-2xl md:text-3xl font-bold tracking-wider text-white px-8 py-4">
             SUBMIT A TALK OR DEMO
-          </h2>
+          </span>
         </Button>
 
         <div className="flex flex-col items-center gap-4">
