@@ -54,10 +54,10 @@ export function Header() {
         >
           <Button
             variant="outline"
-            size="lg"
-            className="border-2 border-white/30 rounded-full hover:bg-white/5 bg-transparent"
+            size="xl"
+            className="border-2 border-white/30 rounded-lg hover:bg-white/5 bg-transparent"
           >
-            <span className="text-xl md:text-2xl font-bold tracking-wider text-white px-4 py-8">
+            <span className="text-xl md:text-2xl font-bold tracking-wider text-white px-4 py-9">
               REGISTER TO ATTEND
             </span>
           </Button>

@@ -15,18 +15,18 @@ export function CTASection() {
           rel="noopener noreferrer"
         >
           <Button
-            variant="outline"
-            size="lg"
-            className="border-2 border-white/30 rounded-full mb-8 hover:bg-white/5 bg-transparent"
-          >
-            <span className="text-2xl md:text-3xl font-bold tracking-wider text-white px-6 py-12">
+              variant="outline"
+              size="xl"
+              className="border-2 border-white/30 rounded-lg hover:bg-white/5 bg-transparent"
+            >
+            <span className="text-2xl md:text-3xl font-bold tracking-wider text-white px-6 py-7">
               SUBMIT A TALK OR DEMO
             </span>
           </Button>
         </a>
 
         <div className="flex flex-col items-center gap-4">
-          <p className="text-white max-w-md text-sm">
+          <p className="text-white max-w-md text-sm ">
             Share your knowledge and experience with the global open source
             community
           </p>
