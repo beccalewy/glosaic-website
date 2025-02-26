@@ -9,7 +9,7 @@ const hosts = [
 
 export function CoHosts() {
   return (
-    <section className="py-20 px-4 border-2">
+    <section className="py-20 px-4">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
