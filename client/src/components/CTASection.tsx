@@ -9,15 +9,17 @@ export function CTASection() {
         transition={{ duration: 0.7 }}
         className="text-center relative z-30"
       >
-        <Button
-          variant="outline"
-          size="lg"
-          className="border-2 border-white/30 rounded-full mb-8 hover:bg-white/5 bg-transparent"
-        >
-          <span className="text-2xl md:text-3xl font-bold tracking-wider text-white px-6 py-12">
-            SUBMIT A TALK OR DEMO
-          </span>
-        </Button>
+        <a href="https://replit.com/@your-username/your-form" target="_blank" rel="noopener noreferrer">
+          <Button
+            variant="outline"
+            size="lg"
+            className="border-2 border-white/30 rounded-full mb-8 hover:bg-white/5 bg-transparent"
+          >
+            <span className="text-2xl md:text-3xl font-bold tracking-wider text-white px-6 py-12">
+              SUBMIT A TALK OR DEMO
+            </span>
+          </Button>
+        </a>
 
         <div className="flex flex-col items-center gap-4">
           <p className="text-white max-w-md text-sm">
