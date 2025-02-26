@@ -17,28 +17,6 @@
   animation: shimmer 9s linear infinite;
 }
 
-.gradient-text {
-  background: linear-gradient(90deg, #0038FF 0%, #FF00C7 50%, #0038FF 100%);
-  background-size: 200% 100%;
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  animation: shimmer 9s linear infinite;
-}
-
-.hover-invert:hover {
-  background: white !important;
-}
-
-.hover-invert:hover span {
-  background: linear-gradient(90deg, #0038FF 0%, #FF00C7 50%, #0038FF 100%);
-  background-size: 200% 100%;
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  animation: shimmer 9s linear infinite;
-}
-
 @tailwind utilities;
 
 @layer base {
