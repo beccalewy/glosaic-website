@@ -14,7 +14,7 @@
   background: linear-gradient(90deg, #0038FF 0%, #FF00C7 50%, #0038FF 100%);
   background-size: 200% 100%;
   background-clip: padding-box;
-  animation: shimmer 3s linear infinite;
+  animation: shimmer 9s linear infinite;
 }
 
 @tailwind utilities;
