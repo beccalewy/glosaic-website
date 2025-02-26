@@ -24,3 +24,15 @@ function App() {
 }
 
 export default App;
+import { BackgroundBlobs } from "@/components/BackgroundBlobs";
+
+export default function App() {
+  return (
+    <>
+      <BackgroundBlobs />
+      <div className="relative z-10">
+        {/* Your routes/pages go here */}
+      </div>
+    </>
+  );
+}
