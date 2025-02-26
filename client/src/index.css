@@ -17,6 +17,15 @@
   animation: shimmer 9s linear infinite;
 }
 
+.shimmer-text {
+  background: linear-gradient(90deg, #0038FF 0%, #FF00C7 50%, #0038FF 100%);
+  background-size: 200% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: shimmer 9s linear infinite;
+}
+
 @tailwind utilities;
 
 @layer base {
