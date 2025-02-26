@@ -25,7 +25,7 @@ export function Header() {
           rel="noopener noreferrer"
         >
           <div className="inline-block px-12 py-12">
-            <h1 className="text-5xl md:text-6xl font-extrabold tracking-wider shimmer-text">
+            <h1 className="text-7xl md:text-6xl font-extrabold tracking-wider shimmer-text">
               GLOSAIC
             </h1>
           </div>
