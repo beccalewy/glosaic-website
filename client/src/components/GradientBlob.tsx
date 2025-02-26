@@ -7,13 +7,13 @@ interface GradientBlobProps {
 
 export function GradientBlob({ position, className = "" }: GradientBlobProps) {
   const isTopLeft = position === "top-left";
-
+  
   return (
     <motion.div
-      className={`fixed ${isTopLeft ? "-top-64 -left-64" : "-bottom-64 -right-64"} w-[48rem] h-[48rem] pointer-events-none ${className}`}
-      initial={{ opacity: 0, scale: 0.8, rotate: 0 }}
-      animate={{ opacity: 1, scale: 1, rotate: 360 }}
-      transition={{ duration: 20, ease: "linear", rotate: { repeat: Infinity, duration: 20 } }}
+      className={`absolute ${isTopLeft ? "-top-20 -left-20" : "-bottom-20 -right-20"} w-96 h-96 pointer-events-none ${className}`}
+      initial={{ opacity: 0, scale: 0.8 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 1 }}
     >
       <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
         <defs>
