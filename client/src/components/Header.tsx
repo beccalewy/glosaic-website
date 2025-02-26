@@ -36,7 +36,7 @@ export function Header() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.4 }}
-        className="text-white text-4xl md:text-4xl font-bold max-w-2xl mx-auto px-4 jersey-10-regular"
+        className="text-white text-4xl md:text-5xl font-md max-w-2xl mx-auto px-4 jersey-10-regular"
       >
         The global virtual open source AI conference
       </motion.p>
@@ -57,7 +57,7 @@ export function Header() {
             size="xl"
             className="border-2 border-white/30 rounded-lg hover:bg-white/5 bg-transparent"
           >
-            <span className="text-xl md:text-2xl font-bold tracking-wider text-white px-4 py-9">
+            <span className="text-xl md:text-2xl font-bold tracking-wider text-black px-4 py-9">
               REGISTER TO ATTEND
             </span>
           </Button>
