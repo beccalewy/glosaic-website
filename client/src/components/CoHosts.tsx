@@ -18,7 +18,7 @@ export function CoHosts() {
         className="text-center mb-16"
       >
         <div className="inline-block border-2 border-white rounded-full px-8 py-2">
-          <h2 className="text-2xl font-bold tracking-wider text-white">
+          <h2 className="text-2xl font-bold tracking-wider text-white z-50">
             CO-HOSTS
           </h2>
         </div>
@@ -37,7 +37,9 @@ export function CoHosts() {
               {host.Icon ? (
                 <host.Icon className="w-12 h-12 text-white" />
               ) : (
-                <span className="text-2xl font-bold text-white">{host.icon}</span>
+                <span className="text-2xl font-bold text-white">
+                  {host.icon}
+                </span>
               )}
             </div>
             <p className="text-white font-bold tracking-wider text-sm">
