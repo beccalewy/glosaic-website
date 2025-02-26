@@ -14,20 +14,17 @@ export function CTASection() {
         transition={{ duration: 0.7 }}
         className="text-center z-10"
       >
-        <div className="inline-block border-2 border-white rounded-full px-8 py-4 mb-8">
+        <Button
+          variant="outline"
+          size="lg"
+          className="inline-block border-2 border-white rounded-full px-8 py-4 mb-8 hover:bg-white/10"
+        >
           <h2 className="text-2xl md:text-3xl font-bold tracking-wider text-white">
             SUBMIT A TALK OR DEMO
           </h2>
-        </div>
+        </Button>
 
         <div className="flex flex-col items-center gap-4">
-          <Button
-            variant="outline"
-            size="lg"
-            className="rounded-full text-white border-2 hover:bg-white/10"
-          >
-            SUBMIT PROPOSAL
-          </Button>
           <p className="text-white/80 max-w-md text-sm">
             Share your knowledge and experience with the global open source
             community
