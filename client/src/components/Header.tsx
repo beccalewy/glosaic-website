@@ -9,7 +9,7 @@ export function Header() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
-        <p className="text-white/80 mb-8 tracking-widest">Virtual Conference</p>
+        <p className="text-white/80 mb-8 tracking-widest">04 - 18 - 25</p>
       </motion.div>
 
       <motion.div
