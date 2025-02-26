@@ -1,11 +1,10 @@
-
 import { motion } from "framer-motion";
 
 const hosts = [
   { name: "FACTORIAL", imgSrc: "/factorial-logo.png" },
-  { name: "FLOWER", imgSrc: "/flower-logo.png" },
+  { name: "FLOWER", imgSrc: "/flowerlogo.png" },
   { name: "HUGGING FACE", imgSrc: "/huggingface-logo.png" },
-  { name: "GRADIO", imgSrc: "/gradio-logo.png" }
+  { name: "GRADIO", imgSrc: "/gradio-logo.png" },
 ];
 
 export function CoHosts() {
@@ -33,8 +32,8 @@ export function CoHosts() {
             transition={{ duration: 0.5, delay: index * 0.1 }}
             className="flex flex-col items-center"
           >
-            <img 
-              src={host.imgSrc} 
+            <img
+              src={host.imgSrc}
               alt={host.name}
               className="w-32 h-32 object-contain mb-4"
             />

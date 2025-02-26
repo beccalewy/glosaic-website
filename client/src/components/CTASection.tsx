@@ -3,7 +3,6 @@ import { Button } from "@/components/ui/button";
 export function CTASection() {
   return (
     <section className="relative min-h-[400px] flex items-center justify-center py-20 px-4">
-
       <motion.div
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
@@ -15,13 +14,13 @@ export function CTASection() {
           size="lg"
           className="border-2 border-white/30 rounded-full mb-8 hover:bg-white/5 bg-transparent"
         >
-          <span className="text-2xl md:text-3xl font-bold tracking-wider text-white/70 px-8 py-8">
+          <span className="text-2xl md:text-3xl font-bold tracking-wider text-white px-6 py-12">
             SUBMIT A TALK OR DEMO
           </span>
         </Button>
 
         <div className="flex flex-col items-center gap-4">
-          <p className="text-white/40 max-w-md text-sm">
+          <p className="text-white max-w-md text-sm">
             Share your knowledge and experience with the global open source
             community
           </p>
