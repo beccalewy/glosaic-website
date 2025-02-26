@@ -12,7 +12,7 @@ export function CTASection() {
         <Button
           variant="outline"
           size="lg"
-          className="border-2 border-white/30 rounded-full mb-8 hover:bg-white/5 bg-transparent"
+          className="border-2 border-white/30 rounded-full mb-8 bg-transparent transition-all duration-300 hover:scale-105 hover:shadow-[0_0_30px_rgba(255,255,255,0.3)]"
         >
           <span className="text-2xl md:text-3xl font-bold tracking-wider text-white px-6 py-12">
             SUBMIT A TALK OR DEMO
