@@ -32,14 +32,16 @@ export function CoHosts() {
             transition={{ duration: 0.5, delay: index * 0.1 }}
             className="flex flex-col items-center"
           >
-            <img
-              src={host.imgSrc}
-              alt={host.name}
-              className="w-32 h-32 object-contain mb-4"
-            />
-            <p className="text-white font-bold tracking-wider text-sm">
-              {host.name}
-            </p>
+            <a href={`https://replit.com/@your-username/${host.name.toLowerCase()}`} target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
+              <img
+                src={host.imgSrc}
+                alt={host.name}
+                className="w-32 h-32 object-contain mb-4"
+              />
+              <p className="text-white font-bold tracking-wider text-sm">
+                {host.name}
+              </p>
+            </a>
           </motion.div>
         ))}
       </div>
