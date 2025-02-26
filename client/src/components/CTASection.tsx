@@ -4,15 +4,15 @@ import { GradientBlob } from "./GradientBlob";
 
 export function CTASection() {
   return (
-    <section className="relative min-h-[400px] flex items-center justify-center py-20 px-4">
-      <GradientBlob position="top-left" className="opacity-50" />
-      <GradientBlob position="bottom-right" className="opacity-50" />
+    <section className="relative min-h-[400px] flex items-center justify-center py-20 px-4 overflow-hidden">
+      <GradientBlob position="top-left" className="opacity-50 z-10" />
+      <GradientBlob position="bottom-right" className="opacity-50 z-10" />
 
       <motion.div
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.7 }}
-        className="text-center z-20"
+        className="text-center relative z-30"
       >
         <Button
           variant="outline"
