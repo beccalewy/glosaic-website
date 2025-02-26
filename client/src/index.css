@@ -26,22 +26,6 @@
   animation: shimmer 9s linear infinite;
 }
 
-.shimmer-border {
-  position: relative;
-  border-radius: 1rem;
-}
-
-.shimmer-border::before {
-  content: '';
-  position: absolute;
-  inset: -2px;
-  background: linear-gradient(90deg, #0038FF 0%, #FF00C7 50%, #0038FF 100%);
-  background-size: 200% 100%;
-  animation: shimmer 9s linear infinite;
-  border-radius: 1rem;
-  z-index: -1;
-}
-
 @tailwind utilities;
 
 @layer base {
