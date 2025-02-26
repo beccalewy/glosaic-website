@@ -24,7 +24,7 @@ export function Header() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <div className="inline-block border-2 border-white rounded-full px-12 py-12">
+          <div className="inline-block border-2 border-white rounded-md px-12 py-12">
             <h1 className="text-5xl md:text-6xl font-extrabold tracking-wider text-white">
               GLOSAIC
             </h1>
