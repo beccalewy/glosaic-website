@@ -1,0 +1,110 @@
+# GLOSAIC Website Design Instructions
+
+## Overall Design
+
+The website should have a sleek, modern aesthetic with these key characteristics:
+- **Background**: Deep black (#000000) background throughout the site
+- **Color Scheme**: Bold gradient colors - primarily electric blue (#0038FF) and hot pink/magenta (#FF00C7) creating vibrant, rounded gradient shapes in the corners of pages
+- **Design Style**: Minimalist with high contrast, rounded elements, and bold typography
+- **Visual Elements**: Fluid, blob-like gradient shapes positioned in corners to frame content
+
+## Typography
+
+- **Primary Font**: Sans-serif, bold, modern font family (similar to Helvetica Neue or Inter)
+- **Headings**: 
+  - Extra bold weight (800)
+  - All uppercase for main headings
+  - Centered alignment
+  - Pure white (#FFFFFF) color
+- **Body Text**: 
+  - Regular weight (400)
+  - White (#FFFFFF) color
+- **Button/Call-to-Action Text**:
+  - All uppercase
+  - Bold weight
+  - Centered
+  
+## Layout Structure
+
+### Home/Landing Page
+1. **Header Section**:
+   - Date displayed as "04 • 18 • 25" with bullet separators centered at top
+   - GLOSAIC logo/text prominently displayed in center
+   - Tagline "The world's largest virtual open source conference" below logo
+
+2. **Logo/Branding**:
+   - "GLOSAIC" in large, bold, uppercase letters
+   - Contained within a rounded rectangle/pill shape with white border
+   - Centered on the page
+
+3. **Decorative Elements**:
+   - Gradient blob shapes (blue-to-magenta) in top-left and bottom-right corners
+   - These shapes should be fluid and organic, extending partially into the viewport
+
+### Co-Hosts Section
+1. **Section Title**:
+   - "CO-HOSTS" in large uppercase letters
+   - Contained in a pill-shaped white outline border
+   - Centered at top of section
+
+2. **Partner Logos Display**:
+   - Four-column grid layout for partner logos
+   - Each column contains:
+     - Company logo
+     - Company name in uppercase below logo
+   - Logos shown: Factorial, Flower, Hugging Face, Gradio
+   - Logos should maintain their original colors against the black background
+
+### Call-to-Action Section
+1. **CTA Container**:
+   - Text "SUBMIT A TALK OR DEMO" in large, bold, uppercase letters
+   - Contained in a pill-shaped white outline border (same style as other section titles)
+   - Centered on the page
+   - Gradient blob elements in corners (same style as home page)
+
+## Interactive Elements
+
+1. **Buttons/CTAs**:
+   - Pill-shaped with white border (2-3px width)
+   - Black background
+   - White text in uppercase
+   - Hover effect: subtle glow or opacity change
+
+2. **Navigation**:
+   - Minimal, possibly hidden in a hamburger menu
+   - When expanded: white text against black background
+   - Selected/active items: bold or with subtle indicator
+
+## Technical Specifications
+
+1. **Color Codes**:
+   - Background: #000000 (deep black)
+   - Text: #FFFFFF (white)
+   - Gradient Blue: #0038FF
+   - Gradient Magenta: #FF00C7
+
+2. **Responsive Design**:
+   - Fluid layout that maintains proportions across devices
+   - Gradient blobs should scale appropriately
+   - Text should remain centered and readable on all devices
+
+3. **Animation Considerations** (optional):
+   - Subtle hover animations on buttons
+   - Possibly slight movement in gradient blobs for more dynamic feel
+   - Smooth transitions between sections
+
+## Development Notes
+
+1. **CSS Implementation for Gradients**:
+   - Use CSS gradient properties for the blob shapes
+   - Example: `background: radial-gradient(circle at top left, #0038FF, #FF00C7)`
+   - Consider SVG masks for more complex blob shapes
+
+2. **Typography Implementation**:
+   - Use web-safe fonts or properly imported Google Fonts
+   - Maintain consistent letter-spacing in uppercase text
+   - Example: `text-transform: uppercase; letter-spacing: 0.05em;`
+
+3. **Border Styling for Pill Shapes**:
+   - Use high border-radius values for pill effect
+   - Example: `border: 2px solid #FFFFFF; border-radius: 9999px;`
