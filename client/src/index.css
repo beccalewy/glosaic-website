@@ -1,5 +1,11 @@
 @tailwind base;
 @tailwind components;
+
+.border-white, .border-white\/30 {
+  background: radial-gradient(circle at center, #0038FF 0%, #FF00C7 100%);
+  background-clip: padding-box;
+}
+
 @tailwind utilities;
 
 @layer base {

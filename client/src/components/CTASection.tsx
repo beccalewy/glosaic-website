@@ -1,12 +1,8 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { GradientBlob } from "./GradientBlob";
-
 export function CTASection() {
   return (
     <section className="relative min-h-[400px] flex items-center justify-center py-20 px-4">
-      <GradientBlob position="top-left" className="opacity-50 z-40" />
-      <GradientBlob position="bottom-right" className="opacity-50 z-40" />
 
       <motion.div
         initial={{ opacity: 0, scale: 0.9 }}
