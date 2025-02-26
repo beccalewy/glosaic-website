@@ -10,7 +10,7 @@ export function GradientBlob({ position, className = "" }: GradientBlobProps) {
 
   return (
     <motion.div
-      className={`absolute ${isTopLeft ? "-top-20 -left-20" : "-bottom-20 -right-20"} w-96 h-96 pointer-events-none ${className}`}
+      className={`fixed ${isTopLeft ? "-top-40 -left-40" : "-bottom-40 -right-40"} w-[800px] h-[800px] pointer-events-none ${className}`}
       initial={{ opacity: 0, scale: 0.8 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 1 }}
