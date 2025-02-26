@@ -1,9 +1,25 @@
 @tailwind base;
 @tailwind components;
 
+@keyframes shimmer {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
 .border-white, .border-white\/30 {
-  background: radial-gradient(circle at center, #0038FF 0%, #FF00C7 100%);
+  background: linear-gradient(90deg, #0038FF 0%, #FF00C7 50%, #0038FF 100%);
+  background-size: 200% 100%;
   background-clip: padding-box;
+  transition: all 0.3s ease;
+}
+
+.border-white:hover, .border-white\/30:hover {
+  animation: shimmer 3s linear infinite;
+  background-size: 200% 100%;
 }
 
 @tailwind utilities;
