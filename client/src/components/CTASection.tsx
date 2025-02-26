@@ -4,7 +4,7 @@ import { GradientBlob } from "./GradientBlob";
 
 export function CTASection() {
   return (
-    <section className="relative min-h-[400px] flex items-center justify-center py-20 px-4 overflow-visible" style={{ overflow: 'visible' }}>
+    <section className="relative min-h-[400px] flex items-center justify-center py-20 px-4">
       <GradientBlob position="top-left" className="opacity-50" />
       <GradientBlob position="bottom-right" className="opacity-50" />
 
