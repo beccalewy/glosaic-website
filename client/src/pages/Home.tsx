@@ -9,7 +9,7 @@ export default function Home() {
       <GradientBlob position="top-left" />
       <GradientBlob position="bottom-right" />
 
-      <main className="relative z-10">
+      <main className="relative">
         <Header />
         <CoHosts />
         <CTASection />
