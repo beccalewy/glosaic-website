@@ -4,7 +4,7 @@ import { GradientBlob } from "./GradientBlob";
 
 export function CTASection() {
   return (
-    <section className="relative min-h-[400px] flex items-center justify-center py-20 px-4 overflow-hidden">
+    <section className="relative min-h-[400px] flex items-center justify-center py-20 px-4">
       <GradientBlob position="top-left" className="opacity-50" />
       <GradientBlob position="bottom-right" className="opacity-50" />
 
@@ -29,7 +29,8 @@ export function CTASection() {
             SUBMIT PROPOSAL
           </Button>
           <p className="text-white/80 max-w-md text-sm">
-            Share your knowledge and experience with the global open source community
+            Share your knowledge and experience with the global open source
+            community
           </p>
         </div>
       </motion.div>
