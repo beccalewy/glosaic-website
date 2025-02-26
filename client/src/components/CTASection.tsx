@@ -9,7 +9,11 @@ export function CTASection() {
         transition={{ duration: 0.7 }}
         className="text-center relative z-30"
       >
-        <a href="https://replit.com/@your-username/your-form" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://airtable.com/appxhJ595FlLatHbH/pagqhiHOk49O7I2Av/form"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Button
             variant="outline"
             size="lg"

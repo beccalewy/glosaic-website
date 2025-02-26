@@ -18,8 +18,13 @@ export function Header() {
         transition={{ duration: 0.7, delay: 0.2 }}
         className="mb-8"
       >
-        <a href="https://replit.com/@your-username/your-home" target="_blank" rel="noopener noreferrer">
-          <div className="inline-block border-2 border-white rounded-full px-12 py-4">
+        <a
+          href="
+          https://factorial-computer-club.replit.app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className="inline-block border-2 border-white rounded-full px-12 py-12">
             <h1 className="text-5xl md:text-6xl font-extrabold tracking-wider text-white">
               GLOSAIC
             </h1>
@@ -42,15 +47,6 @@ export function Header() {
         transition={{ duration: 0.5, delay: 0.6 }}
         className="mt-8"
       >
-        <a href="https://replit.com/@your-username/register" target="_blank" rel="noopener noreferrer">
-          <Button
-            variant="outline"
-            size="lg"
-            className="rounded-full text-white border-2 hover:bg-white/10"
-          >
-            REGISTER NOW
-          </Button>
-        </a>
       </motion.div>
     </header>
   );

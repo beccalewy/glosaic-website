@@ -39,7 +39,7 @@ export function CoHosts() {
                 alt={host.name}
                 className="w-32 h-32 object-contain mb-4"
               />
-              <p className="text-white font-bold tracking-wider text-sm">
+              <p className="text-white font-bold tracking-wider text-md">
                 {host.name}
               </p>
           </motion.div>
