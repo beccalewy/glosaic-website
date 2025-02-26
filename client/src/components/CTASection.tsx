@@ -12,9 +12,9 @@ export function CTASection() {
         <Button
           variant="outline"
           size="lg"
-          className="border-2 border-white/30 rounded-full mb-8 hover:bg-white/5 bg-transparent"
+          className="border-2 border-white/30 rounded-full mb-8 hover:bg-white/5 bg-transparent p-0"
         >
-          <span className="text-2xl md:text-3xl font-bold tracking-wider text-white px-6 py-12">
+          <span className="text-2xl md:text-3xl font-bold tracking-wider text-white px-12 py-6 block">
             SUBMIT A TALK OR DEMO
           </span>
         </Button>
