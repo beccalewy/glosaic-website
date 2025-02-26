@@ -1,11 +1,11 @@
+
 import { motion } from "framer-motion";
-import { SiHuggingface } from "react-icons/si";
 
 const hosts = [
-  { name: "FACTORIAL", icon: "F" },
-  { name: "FLOWER", icon: "FL" },
-  { name: "HUGGING FACE", Icon: SiHuggingface },
-  { name: "GRADIO", icon: "G" },
+  { name: "FACTORIAL", imgSrc: "/factorial-logo.png" },
+  { name: "FLOWER", imgSrc: "/flower-logo.png" },
+  { name: "HUGGING FACE", imgSrc: "/huggingface-logo.png" },
+  { name: "GRADIO", imgSrc: "/gradio-logo.png" }
 ];
 
 export function CoHosts() {
@@ -33,15 +33,11 @@ export function CoHosts() {
             transition={{ duration: 0.5, delay: index * 0.1 }}
             className="flex flex-col items-center"
           >
-            <div className="w-24 h-24 rounded-full border-2 border-white flex items-center justify-center mb-4">
-              {host.Icon ? (
-                <host.Icon className="w-12 h-12 text-white" />
-              ) : (
-                <span className="text-2xl font-bold text-white">
-                  {host.icon}
-                </span>
-              )}
-            </div>
+            <img 
+              src={host.imgSrc} 
+              alt={host.name}
+              className="w-32 h-32 object-contain mb-4"
+            />
             <p className="text-white font-bold tracking-wider text-sm">
               {host.name}
             </p>
