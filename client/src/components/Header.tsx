@@ -43,7 +43,7 @@ export function Header() {
         <Button
           variant="outline"
           size="lg"
-          className="rounded-full text-white border-2 hover:bg-white/10"
+          className="rounded-full text-white border-2 hover-invert transition-all duration-300"
         >
           REGISTER NOW
         </Button>
