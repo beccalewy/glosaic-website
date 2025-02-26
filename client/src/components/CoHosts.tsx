@@ -16,9 +16,13 @@ export function CoHosts() {
         transition={{ duration: 0.5 }}
         className="text-center mb-16"
       >
-        <a href="https://replit.com/@your-username/co-hosts" target="_blank" rel="noopener noreferrer">
-          <div className="inline-block border-2 border-white rounded-full px-8 py-2 hover:bg-white/10 transition-colors">
-            <h2 className="text-2xl font-bold tracking-wider text-white z-50">
+        <a
+          href="https://replit.com/@your-username/co-hosts"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className="inline-block px-12 py-12">
+            <h2 className="text-4xl md:text-4xl font-extrabold tracking-wider shimmer-text">
               CO-HOSTS
             </h2>
           </div>
@@ -35,13 +39,13 @@ export function CoHosts() {
             className="flex flex-col items-center"
           >
             <img
-                src={host.imgSrc}
-                alt={host.name}
-                className="w-32 h-32 object-contain mb-4"
-              />
-              <p className="text-white font-bold tracking-wider text-md">
-                {host.name}
-              </p>
+              src={host.imgSrc}
+              alt={host.name}
+              className="w-32 h-32 object-contain mb-4"
+            />
+            <p className="text-white font-bold tracking-wider text-md">
+              {host.name}
+            </p>
           </motion.div>
         ))}
       </div>
