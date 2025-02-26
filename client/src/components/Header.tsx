@@ -36,9 +36,9 @@ export function Header() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.4 }}
-        className="text-white/90 text-lg md:text-xl max-w-2xl mx-auto px-4"
+        className="text-white/90 text-lg md:text-xl font-bold max-w-2xl mx-auto px-4"
       >
-        The world's largest virtual open source conference
+        The global virtual open source AI conference
       </motion.p>
 
       <motion.div
