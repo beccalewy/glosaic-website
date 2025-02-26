@@ -26,7 +26,7 @@ export function CTASection() {
         </a>
 
         <div className="flex flex-col items-center gap-4">
-          <p className="text-white max-w-md text-sm ">
+          <p className="text-white max-w-md text-md pt-12">
             Share your knowledge and experience with the global open source
             community
           </p>

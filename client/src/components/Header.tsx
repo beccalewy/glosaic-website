@@ -9,7 +9,6 @@ export function Header() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
-        <p className="text-white/80 mb-8 tracking-widest">04 - 18 - 25</p>
       </motion.div>
 
       <motion.div
@@ -28,6 +27,7 @@ export function Header() {
             <h1 className="text-7xl md:text-6xl font-extrabold tracking-wider shimmer-text">
               GLOSAIC
             </h1>
+            <p className="text-white/80 mb-8 tracking-widest pt-12">04 - 18 - 25</p>
           </div>
         </a>
       </motion.div>
