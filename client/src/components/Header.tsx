@@ -2,13 +2,6 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 
 export function Header() {
-  const today = new Date();
-  const formattedDate = today.toLocaleDateString('en-US', {
-    month: '2-digit',
-    day: '2-digit',
-    year: '2-digit'
-  }).replace(/\//g, ' • ');
-
   return (
     <header className="relative text-center py-12">
       <motion.div
@@ -16,7 +9,7 @@ export function Header() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
-        <p className="text-white/80 mb-8 tracking-widest">{formattedDate}</p>
+        <p className="text-white/80 mb-8 tracking-widest">Virtual Conference</p>
       </motion.div>
 
       <motion.div
