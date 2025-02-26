@@ -7,7 +7,7 @@ interface GradientBlobProps {
 
 export function GradientBlob({ position, className = "" }: GradientBlobProps) {
   const isTopLeft = position === "top-left";
-  
+
   return (
     <motion.div
       className={`absolute ${isTopLeft ? "-top-20 -left-20" : "-bottom-20 -right-20"} w-96 h-96 pointer-events-none ${className}`}
@@ -17,7 +17,14 @@ export function GradientBlob({ position, className = "" }: GradientBlobProps) {
     >
       <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
         <defs>
-          <radialGradient id={`gradient-${position}`} cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+          <radialGradient
+            id={`gradient-${position}`}
+            cx="50%"
+            cy="50%"
+            r="50%"
+            fx="50%"
+            fy="50%"
+          >
             <stop offset="0%" style={{ stopColor: "#0038FF" }} />
             <stop offset="100%" style={{ stopColor: "#FF00C7" }} />
           </radialGradient>
