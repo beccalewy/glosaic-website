@@ -47,6 +47,21 @@ export function Header() {
         transition={{ duration: 0.5, delay: 0.6 }}
         className="mt-8"
       >
+        <a
+          href="https://airtable.com/appxhJ595FlLatHbH/pagqhiHOk49O7I2Av/form"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button
+            variant="outline"
+            size="lg"
+            className="border-2 border-white/30 rounded-full hover:bg-white/5 bg-transparent"
+          >
+            <span className="text-xl md:text-2xl font-bold tracking-wider text-white px-4 py-8">
+              REGISTER TO ATTEND
+            </span>
+          </Button>
+        </a>
       </motion.div>
     </header>
   );
