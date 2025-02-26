@@ -6,8 +6,8 @@ import { GradientBlob } from "@/components/GradientBlob";
 export default function Home() {
   return (
     <div className="min-h-screen bg-black relative">
-      <GradientBlob position="top-left" />
-      <GradientBlob position="bottom-right" />
+      <GradientBlob position="top-left" className="z-10" />
+      <GradientBlob position="bottom-right" className="z-10" />
 
       <main className="relative">
         <Header />
