@@ -1,5 +1,52 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
+import { useEffect, useRef } from "react";
+
+const OpnFormEmbed = () => {
+  const iframeRef = useRef<HTMLIFrameElement>(null);
+  
+  useEffect(() => {
+    // Load the OpnForm script
+    const script = document.createElement("script");
+    script.src = "https://opnform.com/widgets/iframe.min.js";
+    script.type = "text/javascript";
+    script.async = true;
+    
+    script.onload = () => {
+      // Call the initEmbed function when the script is loaded
+      if (window.initEmbed) {
+        window.initEmbed("osaic-registration-gpxcuz");
+      }
+    };
+    
+    document.body.appendChild(script);
+    
+    // Cleanup function to remove the script when component unmounts
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+  
+  return (
+    <div className="mx-auto max-w-3xl w-full px-4 mt-12">
+      <iframe 
+        id="osaic-registration-gpxcuz"
+        ref={iframeRef}
+        src="https://opnform.com/forms/osaic-registration-gpxcuz"
+        style={{ border: "none", width: "100%" }}
+        className="min-h-[500px]"
+        title="OSAIC Registration Form"
+      />
+    </div>
+  );
+};
+
+// Add TypeScript interface for the global window object
+declare global {
+  interface Window {
+    initEmbed?: (id: string) => void;
+  }
+}
 
 export function Header() {
   return (
@@ -18,8 +65,7 @@ export function Header() {
         className="mb-8"
       >
         <a
-          href="
-          https://factorial-computer-club.replit.app"
+          href="https://factorial-computer-club.replit.app"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -47,21 +93,8 @@ export function Header() {
         transition={{ duration: 0.5, delay: 0.6 }}
         className="mt-8"
       >
-        <a
-          href="https://airtable.com/appxhJ595FlLatHbH/pagqhiHOk49O7I2Av/form"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Button
-            variant="outline"
-            size="xl"
-            className="border-2 border-white/30 rounded-lg hover:bg-white/5 bg-transparent"
-          >
-            <span className="text-xl md:text-2xl font-extrabold tracking-wider text-black px-4 py-5">
-              REGISTER TO ATTEND
-            </span>
-          </Button>
-        </a>
+        {/* Registration form embed */}
+        <OpnFormEmbed />
       </motion.div>
     </header>
   );
