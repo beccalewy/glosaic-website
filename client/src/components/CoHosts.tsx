@@ -23,7 +23,7 @@ export function CoHosts() {
         >
           <div className="inline-block px-12 py-12">
             <h2 className="text-4xl md:text-4xl font-extrabold tracking-wider shimmer-text">
-              CO-HOSTS
+              CO-HOSTS & COLLABORATORS
             </h2>
           </div>
         </a>
