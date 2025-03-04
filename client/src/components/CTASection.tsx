@@ -15,11 +15,11 @@ export function CTASection() {
           rel="noopener noreferrer"
         >
           <Button
-              variant="outline"
-              size="xl"
-              className="border-2 border-white/30 rounded-lg hover:bg-white/5 bg-transparent"
-            >
-            <span className="text-2xl md:text-3xl font-bold tracking-wider text-white px-6 py-7">
+            variant="outline"
+            size="xl"
+            className="border-2 border-white/30 rounded-lg hover:bg-white/5 bg-transparent"
+          >
+            <span className="text-2xl md:text-3xl font-bold tracking-wider text-black px-6 py-7">
               SUBMIT A TALK OR DEMO
             </span>
           </Button>
