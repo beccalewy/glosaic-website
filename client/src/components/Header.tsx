@@ -72,9 +72,11 @@ export function Header() {
             <h1 className="text-7xl md:text-6xl font-extrabold tracking-wider shimmer-text">
               OSAIC
             </h1>
-            <p className="text-white/80 mb-8 tracking-widest pt-12">
-              04 - 18 - 25 11-3pm ET Livestreamed on YouTube
-            </p>
+            <div className="text-white/80 mb-8 tracking-widest pt-12 flex flex-col items-center">
+              <p>04 - 18 - 25</p>
+              <p>11-3pm ET</p>
+              <p>Livestreamed on YouTube</p>
+            </div>
           </div>
         </a>
       </motion.div>
