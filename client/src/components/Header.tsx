@@ -70,12 +70,12 @@ export function Header() {
         >
           <div className="inline-block px-12 py-12">
             <h1 className="text-7xl md:text-6xl font-extrabold tracking-wider shimmer-text">
-              OSAIC
+              GLOSAIC
             </h1>
             <div className="text-white/80 mb-8 tracking-widest pt-12 flex flex-col items-center">
-              <p>04 - 18 - 25</p>
+              <p className="text-lg font-bold">04 - 18 - 25</p>
               <p>11-3pm ET</p>
-              <p>Livestreamed on YouTube</p>
+              <p>Livestreamed on YouTube (register for the link)</p>
             </div>
           </div>
         </a>
@@ -87,7 +87,7 @@ export function Header() {
         transition={{ duration: 0.5, delay: 0.4 }}
         className="text-white text-4xl md:text-5xl font-md max-w-2xl mx-auto px-4 jersey-10-regular"
       >
-        The first entirely virtual Open Source AI Conference
+        Global (virtual) Open Source AI Conference
       </motion.p>
 
       <motion.div
