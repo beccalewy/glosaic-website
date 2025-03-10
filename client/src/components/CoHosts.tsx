@@ -29,10 +29,14 @@ export function CoHosts() {
             </h2>
             <div className="text-white/80 mb-8 tracking-widest pt-12 flex flex-col items-center">
               <div>
-                <p className="text-lg font-bold">
-                  Global (virtual) Open Source AI Conference
-                </p>
               </div>
+              <p>GLOSAIC is the first Global (virtual) Open Source AI Conference for developers building & using open source AI.</p>
+              <p className="font-bold mt-10">Speakers will discuss:</p>
+              <ul className="list-disc list-inside text-white/80">
+                <li>Frontiers of open source AI includuing local models, robotics, biology models, and agents.</li>
+                <li>Why build open source & strategies for growth that only open source affords.</li>
+                <li>The business of open source - fundraising and selling an open source company.</li>
+              </ul>
               <p className="mt-10">04 - 16 - 25</p>
               <p className="mt-10">
                 Livestreamed on YouTube (register for the link)
