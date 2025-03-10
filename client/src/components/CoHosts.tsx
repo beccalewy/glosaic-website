@@ -24,10 +24,10 @@ export function CoHosts() {
           rel="noopener noreferrer"
         >
           <div className="inline-block px-12 py-12">
-            <h2 className="text-8xl md:text-[10rem] font-extrabold tracking-wider shimmer-text">
+            <h2 className="text-8xl md:text-[10rem] font-extrabold shimmer-text">
               GLOSAIC
             </h2>
-            <h3 className="text-4xl md:text-[5rem] font-extrabold tracking-wider shimmer-text">04 - 16 - 25</h3>
+            <h2 className="text-4xl md:text-[5rem] font-extrabold tracking-wider shimmer-text">04 - 16 - 25</h2>
             <div className="text-white/80 mb-8 tracking-widest pt-12 flex flex-col items-center">
               <div>
               </div>
