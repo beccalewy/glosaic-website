@@ -32,7 +32,7 @@ export function CoHosts() {
               </div>
               <p>GLOSAIC is the first Global (virtual) Open Source AI Conference for developers building & using open source AI.</p>
               <p className="font-bold mt-10">Speakers will discuss:</p>
-              <ul className="list-disc list-inside text-white/80">
+              <ul className="list-disc mx-8 md:mx-16 pl-5 text-white/80">
                 <li>Frontiers of open source AI includuing local models, robotics, biology models, and agents.</li>
                 <li>Why build open source & strategies for growth that only open source affords.</li>
                 <li>The business of open source - fundraising and selling an open source company.</li>
