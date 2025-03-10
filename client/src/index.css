@@ -18,19 +18,19 @@
     linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
-  animation: shimmer 2s linear infinite;
+  animation: shimmer 8s linear infinite;
 }
 
 .register-button:hover::before {
   background: linear-gradient(90deg, #0038FF, #FF00C7);
   background-size: 200% 200%;
-  animation: shimmer 2s linear infinite;
+  animation: shimmer 8s linear infinite;
 }
 
 .register-button-bg {
   background: linear-gradient(90deg, #0038FF, #FF00C7);
   background-size: 200% 200%;
-  animation: shimmer 2s linear infinite;
+  animation: shimmer 8s linear infinite;
   z-index: -1;
 }
 
