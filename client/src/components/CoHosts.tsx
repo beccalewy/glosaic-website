@@ -40,7 +40,7 @@ export function CoHosts() {
             </div>
             <button className="register-button bg-transparent relative py-3 px-8 rounded-md text-xl font-bold tracking-wider shimmer-text hover:text-white transition-colors duration-800">
               Register
-              <span className="absolute inset-0 register-button-bg opacity-0 hover:bg-gradient-to-r from-blue-500 via-pink-500 to-purple-500 transition-opacity duration-800"></span>
+              <span className="absolute inset-0 register-button-bg opacity-0 group-hover:opacity-100 transition-opacity duration-800"></span>
             </button>
           </div>
         </a>

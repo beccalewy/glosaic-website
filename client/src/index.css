@@ -34,6 +34,11 @@
   z-index: -1;
 }
 
+/* Add proper hover state management */
+.register-button:hover .register-button-bg {
+  opacity: 1 !important;
+}
+
 @keyframes shimmer {
   0% {
     background-position: 0% 50%;
