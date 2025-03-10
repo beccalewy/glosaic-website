@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
 
 const hosts = [
-  { name: "FACTORIAL", imgSrc: "/factorial-logo.png" },
+  { name: "", imgSrc: "/factorial-logo.png" },
   { name: "FLOWER", imgSrc: "/flowerlogo.png" },
-  { name: "HUGGING FACE", imgSrc: "/huggingface-logo.png" },
+  { name: "", imgSrc: "/huggingface-logo.png" },
   { name: "GRADIO", imgSrc: "/gradio-logo.png" },
-  { name: "NOMIC", imgSrc: "/nomic-logo.png" },
+  { name: "", imgSrc: "/nomic-logo.png" },
 ];
 
 export function CoHosts() {
