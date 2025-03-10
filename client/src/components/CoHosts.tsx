@@ -27,7 +27,7 @@ export function CoHosts() {
             <h2 className="text-8xl md:text-[10rem] font-extrabold tracking-wider shimmer-text">
               GLOSAIC
             </h2>
-            <h3 className="text-4xl md:text-[5rem] font-extrabold tracking-wider shimmer-text w-full overflow-visible">04 - 16 - 25</h3>
+            <h3 className="text-4xl md:text-[5rem] font-extrabold tracking-wider shimmer-text">04 - 16 - 25</h3>
             <div className="text-white/80 mb-8 tracking-widest pt-12 flex flex-col items-center">
               <div>
               </div>
