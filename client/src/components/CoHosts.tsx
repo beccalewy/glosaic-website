@@ -6,6 +6,7 @@ const hosts = [
   { name: "", imgSrc: "/huggingface-logo.png" },
   { name: "GRADIO", imgSrc: "/gradio-logo.png" },
   { name: "", imgSrc: "/nomic-logo.png" },
+  { name: "PATRONUS", imgSrc: "/patronus_ai_inc_logo.jpeg" },
 ];
 
 export function CoHosts() {
