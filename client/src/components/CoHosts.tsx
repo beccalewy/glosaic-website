@@ -28,13 +28,18 @@ export function CoHosts() {
               GLOSAIC
             </h2>
             <div className="text-white/80 mb-8 tracking-widest pt-12 flex flex-col items-center">
+              <div>
               <p className="text-lg font-bold">
                 Global (virtual) Open Source AI Conference
               </p>
-              <p className="text-lg font-bold">04 - 16 - 25</p>
-              <p>11-3pm ET</p>
-              <p>Livestreamed on YouTube (register for the link)</p>
+                </div>
+              <p className="mt-10">04 - 16 - 25</p>
+              <p className="mt-10">Livestreamed on YouTube (register for the link)</p>
             </div>
+            <button className="register-button bg-transparent relative py-3 px-8 rounded-md text-xl font-bold tracking-wider shimmer-text hover:text-white transition-colors duration-800">
+              Register
+              <span className="absolute inset-0 register-button-bg opacity-0 hover:opacity-100 transition-opacity duration-800"></span>
+            </button>
           </div>
         </a>
       </motion.div>
@@ -66,10 +71,6 @@ export function CoHosts() {
         transition={{ duration: 0.9, delay: 0.8 }}
         className="mt-16 flex justify-center"
       >
-        <button className="register-button bg-transparent relative overflow-hidden py-3 px-8 rounded-md text-lg font-bold tracking-wider shimmer-text hover:text-white transition-colors duration-800">
-          Register
-          <span className="absolute inset-0 register-button-bg opacity-0 hover:opacity-100 transition-opacity duration-800"></span>
-        </button>
       </motion.div>
     </section>
   );
