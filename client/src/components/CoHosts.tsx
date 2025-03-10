@@ -23,9 +23,17 @@ export function CoHosts() {
           rel="noopener noreferrer"
         >
           <div className="inline-block px-12 py-12">
-            <h2 className="text-4xl md:text-4xl font-extrabold tracking-wider shimmer-text">
-              CO-HOSTS & COLLABORATORS
+            <h2 className="text-7xl md:text-6xl font-extrabold tracking-wider shimmer-text">
+              GLOSAIC
             </h2>
+            <div className="text-white/80 mb-8 tracking-widest pt-12 flex flex-col items-center">
+              <p className="text-lg font-bold">
+                Global (virtual) Open Source AI Conference
+              </p>
+              <p className="text-lg font-bold">04 - 16 - 25</p>
+              <p>11-3pm ET</p>
+              <p>Livestreamed on YouTube (register for the link)</p>
+            </div>
           </div>
         </a>
       </motion.div>

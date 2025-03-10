@@ -73,6 +73,7 @@ export function Header() {
               GLOSAIC
             </h1>
             <div className="text-white/80 mb-8 tracking-widest pt-12 flex flex-col items-center">
+
               <p className="text-lg font-bold">04 - 16 - 25</p>
               <p>11-3pm ET</p>
               <p>Livestreamed on YouTube (register for the link)</p>
@@ -80,15 +81,6 @@ export function Header() {
           </div>
         </a>
       </motion.div>
-
-      <motion.p
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5, delay: 0.4 }}
-        className="text-white text-4xl md:text-5xl font-md max-w-2xl mx-auto px-4 jersey-10-regular"
-      >
-        Global (virtual) Open Source AI Conference
-      </motion.p>
 
       <motion.div
         initial={{ opacity: 0, y: 20 }}
