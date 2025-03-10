@@ -42,7 +42,7 @@ export function CoHosts() {
       <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-6xl mx-auto">
         {hosts.map((host, index) => (
           <motion.div
-            key={host.name}
+            key={host.name || host.imgSrc}
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: index * 0.1 }}
@@ -59,6 +59,18 @@ export function CoHosts() {
           </motion.div>
         ))}
       </div>
+      
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 0.8 }}
+        className="mt-16 flex justify-center"
+      >
+        <button className="register-button bg-transparent border-2 border-transparent relative overflow-hidden py-3 px-8 rounded-md text-lg font-bold tracking-wider shimmer-text hover:text-white transition-colors duration-300">
+          Register
+          <span className="absolute inset-0 register-button-bg opacity-0 hover:opacity-100 transition-opacity duration-300"></span>
+        </button>
+      </motion.div>
     </section>
   );
 }
