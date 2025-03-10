@@ -1,4 +1,3 @@
-import { Header } from "@/components/Header";
 import { CoHosts } from "@/components/CoHosts";
 
 export default function Home() {
@@ -6,7 +5,6 @@ export default function Home() {
     <div className="min-h-screen bg-black relative">
       <main className="relative">
         <CoHosts />
-        <Header />
       </main>
     </div>
   );
