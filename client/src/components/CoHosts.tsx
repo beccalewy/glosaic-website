@@ -59,16 +59,16 @@ export function CoHosts() {
           </motion.div>
         ))}
       </div>
-      
+
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5, delay: 0.8 }}
+        transition={{ duration: 0.9, delay: 0.8 }}
         className="mt-16 flex justify-center"
       >
-        <button className="register-button bg-transparent border-2 border-transparent relative overflow-hidden py-3 px-8 rounded-md text-lg font-bold tracking-wider shimmer-text hover:text-white transition-colors duration-300">
+        <button className="register-button bg-transparent border-2 border-transparent relative overflow-hidden py-3 px-8 rounded-md text-lg font-bold tracking-wider shimmer-text hover:text-white transition-colors duration-800">
           Register
-          <span className="absolute inset-0 register-button-bg opacity-0 hover:opacity-100 transition-opacity duration-300"></span>
+          <span className="absolute inset-0 register-button-bg opacity-0 hover:opacity-100 transition-opacity duration-800"></span>
         </button>
       </motion.div>
     </section>
