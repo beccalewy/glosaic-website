@@ -1,3 +1,4 @@
+
 /* Register button styles */
 .register-button {
   position: relative;
@@ -11,7 +12,7 @@
   border-radius: 0.375rem; /* md */
   padding: 2px;
   background: linear-gradient(90deg, #0038FF, #FF00C7);
-  background-size: 400% 100%; /* Increased size for continuous flow */
+  background-size: 200% 200%;
   -webkit-mask: 
     linear-gradient(#fff 0 0) content-box, 
     linear-gradient(#fff 0 0);
@@ -22,13 +23,13 @@
 
 .register-button:hover::before {
   background: linear-gradient(90deg, #0038FF, #FF00C7);
-  background-size: 400% 100%; /* Increased size for continuous flow */
+  background-size: 200% 200%;
   animation: shimmer 8s linear infinite;
 }
 
 .register-button-bg {
   background: linear-gradient(90deg, #0038FF, #FF00C7);
-  background-size: 400% 100%; /* Increased size for continuous flow */
+  background-size: 200% 200%;
   animation: shimmer 8s linear infinite;
   z-index: -1;
 }
@@ -40,10 +41,13 @@
 
 @keyframes shimmer {
   0% {
-    background-position: -100% 0;
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
   }
   100% {
-    background-position: 100% 0;
+    background-position: 0% 50%;
   }
 }
 
@@ -59,26 +63,25 @@
   font-style: normal;
 }
 
-/*This keyframes shimmer is overwritten by the one above, so it's not necessary*/
-/*@keyframes shimmer {
+@keyframes shimmer {
   0% {
     background-position: 200% 0;
   }
   100% {
     background-position: -200% 0;
   }
-}*/
+}
 
 .border-white, .border-white\/30 {
   background: linear-gradient(90deg, #0038FF 0%, #FF00C7 50%, #0038FF 100%);
-  background-size: 400% 100%; /* Increased size for continuous flow */
+  background-size: 200% 100%;
   background-clip: padding-box;
   animation: shimmer 9s linear infinite;
 }
 
 .shimmer-text {
   background: linear-gradient(90deg, #0038FF 0%, #FF00C7 50%, #0038FF 100%);
-  background-size: 400% 100%; /* Increased size for continuous flow */
+  background-size: 200% 100%;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
