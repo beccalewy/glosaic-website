@@ -46,20 +46,22 @@ export function CoHosts() {
         </a>
       </motion.div>
 
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-6xl mx-auto">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-6xl mx-auto text-center">
         {hosts.map((host, index) => (
           <motion.div
             key={host.name || host.imgSrc}
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: index * 0.1 }}
-            className="flex flex-col items-center"
+            className="flex flex-col items-center justify-center"
           >
-            <img
-              src={host.imgSrc}
-              alt={host.name}
-              className="w-32 h-32 object-contain mb-4"
-            />
+            <div className="flex justify-center w-full">
+              <img
+                src={host.imgSrc}
+                alt={host.name}
+                className="w-32 h-32 object-contain mb-4"
+              />
+            </div>
             <p className="text-white font-bold tracking-wider text-md">
               {host.name}
             </p>
