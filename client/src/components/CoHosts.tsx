@@ -29,16 +29,18 @@ export function CoHosts() {
             </h2>
             <div className="text-white/80 mb-8 tracking-widest pt-12 flex flex-col items-center">
               <div>
-              <p className="text-lg font-bold">
-                Global (virtual) Open Source AI Conference
-              </p>
-                </div>
+                <p className="text-lg font-bold">
+                  Global (virtual) Open Source AI Conference
+                </p>
+              </div>
               <p className="mt-10">04 - 16 - 25</p>
-              <p className="mt-10">Livestreamed on YouTube (register for the link)</p>
+              <p className="mt-10">
+                Livestreamed on YouTube (register for the link)
+              </p>
             </div>
             <button className="register-button bg-transparent relative py-3 px-8 rounded-md text-xl font-bold tracking-wider shimmer-text hover:text-white transition-colors duration-800">
               Register
-              <span className="absolute inset-0 register-button-bg opacity-0 hover:opacity-100 transition-opacity duration-800"></span>
+              <span className="absolute inset-0 register-button-bg opacity-0 hover:bg-gradient-to-r from-blue-500 via-pink-500 to-purple-500 transition-opacity duration-800"></span>
             </button>
           </div>
         </a>
@@ -70,8 +72,7 @@ export function CoHosts() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.9, delay: 0.8 }}
         className="mt-16 flex justify-center"
-      >
-      </motion.div>
+      ></motion.div>
     </section>
   );
 }
