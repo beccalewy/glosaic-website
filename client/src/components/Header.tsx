@@ -73,7 +73,7 @@ export function Header() {
               GLOSAIC
             </h1>
             <div className="text-white/80 mb-8 tracking-widest pt-12 flex flex-col items-center">
-              <p className="text-lg font-bold">04 - 18 - 25</p>
+              <p className="text-lg font-bold">04 - 16 - 25</p>
               <p>11-3pm ET</p>
               <p>Livestreamed on YouTube (register for the link)</p>
             </div>
