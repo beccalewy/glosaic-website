@@ -57,18 +57,18 @@ export function Header() {
   return (
     <>
       {/* Navigation Bar */}
-      <nav className="fixed top-0 left-0 right-0 bg-background/80 backdrop-blur-md z-50 border-b border-border/40">
-        <div className="container flex items-center justify-between h-16 px-4">
+      <nav className="fixed top-0 left-0 right-0 bg-background/95 backdrop-blur-md z-50 border-b border-border/40">
+        <div className="container flex items-center justify-between h-20 px-6">
           {/* Logo */}
-          <a href="/" className="text-xl font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-transparent bg-clip-text hover:opacity-80 transition-opacity">
+          <a href="/" className="text-2xl font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-transparent bg-clip-text hover:opacity-80 transition-opacity tracking-wide">
             GLOSAIC
           </a>
 
           {/* Navigation Menu */}
           <NavigationMenu>
-            <NavigationMenuList>
+            <NavigationMenuList className="space-x-2">
               <NavigationMenuItem>
-                <NavigationMenuTrigger>About</NavigationMenuTrigger>
+                <NavigationMenuTrigger className="text-sm">About</NavigationMenuTrigger>
                 <NavigationMenuContent>
                   <div className="p-4 w-[200px]">
                     <NavigationMenuLink asChild>
@@ -82,12 +82,12 @@ export function Header() {
               </NavigationMenuItem>
               <NavigationMenuItem>
                 <NavigationMenuLink asChild>
-                  <a href="#sessions" className="px-4 py-2 hover:text-primary">Sessions</a>
+                  <a href="#sessions" className="text-sm px-4 py-2 hover:text-primary">Sessions</a>
                 </NavigationMenuLink>
               </NavigationMenuItem>
               <NavigationMenuItem>
                 <NavigationMenuLink asChild>
-                  <a href="#register" className="px-4 py-2 hover:text-primary">Register</a>
+                  <a href="#register" className="text-sm px-4 py-2 hover:text-primary">Register</a>
                 </NavigationMenuLink>
               </NavigationMenuItem>
             </NavigationMenuList>
