@@ -29,7 +29,7 @@ export function CoHosts() {
           </div>
         </div>
       </nav>
-      
+
       {/* Main content - added padding-top to account for fixed navbar */}
       <div className="py-20 px-4 pt-28">
       <motion.div
@@ -44,7 +44,8 @@ export function CoHosts() {
             <div>
             </div>
             <p className="font-extrabold text-base sm:text-lg md:text-xl px-2 text-center shimmer-text">April 16, 2025.</p>
-            </div>
+          </div>
+          <div className="flex justify-center pt-6 md:pt-12 lg:pt-16 xl:pt-20">
               <a
                 href="https://opnform.com/forms/osaic-registration-gpxcuz"
                 target="_blank"
