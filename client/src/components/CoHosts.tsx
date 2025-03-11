@@ -26,28 +26,29 @@ export function CoHosts() {
           <div className="text-white/80 mb-8 tracking-widest pt-6 md:pt-12 flex flex-col items-center">
             <div>
             </div>
-            <p className="font-extrabold text-base sm:text-lg md:text-xl px-4 text-center">GLOSAIC is the first Global (virtual) Open Source AI Conference for developers building & using open source AI.</p>
-            <p className="font-extrabold text-base sm:text-lg mt-6 md:mt-10 mb-4">Speakers will discuss:</p>
+            <p className="font-extrabold text-base sm:text-lg md:text-xl px-4 text-center">GLOSAIC is the first Global Open Source AI Conference for developers building & using open source AI.</p>
+            </div>
+              <a
+                href="https://replit.com/@your-username/co-hosts"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="register-button bg-transparent relative py-2 sm:py-3 px-6 sm:px-8 rounded-md text-base sm:text-xl font-bold tracking-wider shimmer-text hover:text-white transition-colors duration-800">
+                  Register
+                  <span className="absolute inset-0 register-button-bg opacity-0 group-hover:opacity-100 transition-opacity duration-800"></span>
+                </button>
+              </a>
+            </div>
+            <p className="font-extrabold text-base sm:text-lg mt-6 md:mt-10 mb-4">We'll examine...</p>
             <ul className="list-disc mx-4 sm:mx-8 md:mx-16 pl-5 text-white/80 text-left text-sm sm:text-base [&>li]:mb-3">
-              <li>Frontiers of open source AI includuing local models, robotics, biology models, and agents.</li>
-              <li>Why build open source & strategies for growth that only open source affords.</li>
-              <li>The business of open source - fundraising and selling an open source company.</li>
+              <li>The frontiers of open source AI includuing local models, robotics, biology models, and agents.</li>
+              <li>Why build open source? What growth strategies does open source afford?</li>
+              <li>Fundraising and selling an open source company and the business of open source.</li>
             </ul>
-            <p className="mt-6 md:mt-10 italic text-sm sm:text-base">
-              Livestreamed on YouTube (register for the link)
+            <p className="mt-6 md:mt-10 text-sm sm:text-base">
+              Virtual only (register for the link)
             </p>
-          </div>
-          <a
-            href="https://replit.com/@your-username/co-hosts"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <button className="register-button bg-transparent relative py-2 sm:py-3 px-6 sm:px-8 rounded-md text-base sm:text-xl font-bold tracking-wider shimmer-text hover:text-white transition-colors duration-800">
-              Register
-              <span className="absolute inset-0 register-button-bg opacity-0 group-hover:opacity-100 transition-opacity duration-800"></span>
-            </button>
-          </a>
-        </div>
+          
       </motion.div>
 
       <div className="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-4 gap-4 sm:gap-8 max-w-6xl mx-auto text-center px-4 sm:px-6">
