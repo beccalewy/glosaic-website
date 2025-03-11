@@ -46,7 +46,7 @@ export function CoHosts() {
             <p className="font-extrabold text-base sm:text-lg md:text-xl px-2 text-center shimmer-text">April 16, 2025.</p>
             </div>
               <a
-                href="https://replit.com/@your-username/co-hosts"
+                href="https://opnform.com/forms/osaic-registration-gpxcuz"
                 target="_blank"
                 rel="noopener noreferrer"
               >
