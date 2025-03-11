@@ -26,7 +26,7 @@ export function CoHosts() {
           <div className="text-white/80 mb-8 tracking-widest pt-6 md:pt-12 flex flex-col items-center">
             <div>
             </div>
-            <p className="font-extrabold text-base sm:text-lg md:text-xl px-4 text-center">GLOSAIC is the first Global Open Source AI Conference for developers building & using open source AI.</p>
+            <p className="font-extrabold text-base sm:text-lg md:text-xl px-2 text-center">GLOSAIC is the first Global Open Source AI Conference for developers building & using open source AI.</p>
             </div>
               <a
                 href="https://replit.com/@your-username/co-hosts"
@@ -40,7 +40,7 @@ export function CoHosts() {
               </a>
             </div>
             {/* Host logos moved here */}
-            <div className="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-4 gap-4 sm:gap-8 max-w-6xl mx-auto text-center px-4 sm:px-6">
+            <div className="grid grid-cols-4 gap-3 sm:gap-8 max-w-6xl mx-auto text-center px-2 sm:px-6">
         {hosts.map((host, index) => (
           <motion.div
             key={host.name || host.imgSrc}
@@ -53,10 +53,10 @@ export function CoHosts() {
               <img
                 src={host.imgSrc}
                 alt={host.name}
-                className="w-16 h-16 object-contain mb-4" // Reduced image size
+                className="w-12 h-12 sm:w-16 sm:h-16 object-contain mb-2 sm:mb-4" // Smaller image size on mobile
               />
             </div>
-            <p className="text-white font-bold tracking-wider text-sm"> {/* Reduced text size */}
+            <p className="text-white font-bold tracking-wider text-xs sm:text-sm"> {/* Smaller text on mobile */}
               {host.name}
             </p>
           </motion.div>
