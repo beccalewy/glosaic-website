@@ -18,11 +18,13 @@ export function CoHosts() {
           <div className="font-extrabold text-2xl sm:text-3xl shimmer-text">
             GLOSAIC
           </div>
+          {/* Navigation items hidden for now
           <div className="hidden md:flex space-x-6">
             <a href="#about" className="text-white hover:text-white/70 transition-colors duration-300">About</a>
             <a href="#sessions" className="text-white hover:text-white/70 transition-colors duration-300">Sessions</a>
             <a href="#register" className="text-white hover:text-white/70 transition-colors duration-300">Register</a>
           </div>
+          */}
           <div className="md:hidden">
             {/* Mobile menu button placeholder - hidden for now */}
             <button className="text-white text-xl hidden">≡</button>
