@@ -40,7 +40,7 @@ export function CoHosts() {
       >
         <div className="inline-block px-4 sm:px-12 py-12">
           <h2 className="text-[48px] leading-[1.0834933333] font-[600] tracking-[-0.003em] pb-2 mt-0 md:mt-2 lg:mt-4 shimmer-text">The first Global Open Source AI Conference for developers.</h2>
-          <div className="text-white/80 mb-8 tracking-widest pt-6 md:pt-12 flex flex-col items-center">
+          <div className="text-white/80 mb-8 tracking-widest pt-6 md:pt-12 lg:pt-16 xl:pt-20 flex flex-col items-center">
             <div>
             </div>
             <p className="font-extrabold text-base sm:text-lg md:text-xl px-2 text-center shimmer-text">April 16, 2025.</p>
