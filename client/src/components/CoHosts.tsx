@@ -84,7 +84,7 @@ export function CoHosts() {
                 ^
               </div>
             </div>
-            <p className="font-extrabold text-base sm:text-lg mt-8 md:mt-12 lg:mt-16 mb-4">We'll examine...</p>
+            <p className="font-extrabold text-base sm:text-lg mt-16 md:mt-24 lg:mt-32 mb-4">We'll examine...</p>
             <ul className="list-disc mx-4 sm:mx-8 md:mx-16 pl-5 text-white/80 text-left text-sm sm:text-base [&>li]:mb-3">
               <li>The frontiers of open source AI includuing local models, robotics, biology models, and agents.</li>
               <li>Why build open source? What growth strategies does open source afford?</li>
