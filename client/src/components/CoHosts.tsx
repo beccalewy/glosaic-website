@@ -79,7 +79,12 @@ export function CoHosts() {
           </motion.div>
         ))}
       </div>
-            <p className="font-extrabold text-base sm:text-lg mt-12 md:mt-16 lg:mt-20 mb-4">We'll examine...</p>
+            <div className="flex justify-center w-full my-8">
+              <div className="font-extrabold text-4xl sm:text-5xl shimmer-text">
+                ↓
+              </div>
+            </div>
+            <p className="font-extrabold text-base sm:text-lg mt-8 md:mt-12 lg:mt-16 mb-4">We'll examine...</p>
             <ul className="list-disc mx-4 sm:mx-8 md:mx-16 pl-5 text-white/80 text-left text-sm sm:text-base [&>li]:mb-3">
               <li>The frontiers of open source AI includuing local models, robotics, biology models, and agents.</li>
               <li>Why build open source? What growth strategies does open source afford?</li>
