@@ -19,7 +19,7 @@ export function CoHosts() {
         className="text-center mb-16"
       >
         <div className="inline-block px-12 py-12">
-          <h2 className="text-7xl sm:text-7xl md:text-8xl lg:text-[10rem] font-extrabold shimmer-text">
+          <h2 className="text-6xl sm:text-7xl md:text-8xl lg:text-[10rem] font-extrabold shimmer-text">
             GLOSAIC
           </h2>
           <h2 className="text-xl sm:text-2xl md:text-[3rem] font-extrabold tracking-wider leading-normal pb-2 shimmer-text">April 16, 2025</h2>
