@@ -22,7 +22,7 @@ export function CoHosts() {
           <h2 className="text-5xl sm:text-7xl md:text-8xl lg:text-[10rem] font-extrabold shimmer-text">
             GLOSAIC
           </h2>
-          <h2 className="text-xl sm:text-2xl md:text-[3rem] font-extrabold tracking-wider leading-none shimmer-text">April 16, 2025</h2>
+          <h2 className="text-xl sm:text-2xl md:text-[3rem] font-extrabold tracking-wider leading-normal pb-2 shimmer-text">April 16, 2025</h2>
           <div className="text-white/80 mb-8 tracking-widest pt-6 md:pt-12 flex flex-col items-center">
             <div>
             </div>
