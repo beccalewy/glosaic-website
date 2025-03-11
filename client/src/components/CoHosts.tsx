@@ -11,7 +11,27 @@ const hosts = [
 
 export function CoHosts() {
   return (
-    <section className="py-20 px-4">
+    <section>
+      {/* Simple Navigation Menu */}
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-black/70 backdrop-blur-md border-b border-white/10 py-4 px-6">
+        <div className="container mx-auto flex justify-between items-center">
+          <div className="font-extrabold text-2xl sm:text-3xl shimmer-text">
+            GLOSAIC
+          </div>
+          <div className="hidden md:flex space-x-6">
+            <a href="#about" className="text-white hover:text-white/70 transition-colors duration-300">About</a>
+            <a href="#sessions" className="text-white hover:text-white/70 transition-colors duration-300">Sessions</a>
+            <a href="#register" className="text-white hover:text-white/70 transition-colors duration-300">Register</a>
+          </div>
+          <div className="md:hidden">
+            {/* Mobile menu button placeholder - could be expanded with actual mobile menu */}
+            <button className="text-white text-xl">≡</button>
+          </div>
+        </div>
+      </nav>
+      
+      {/* Main content - added padding-top to account for fixed navbar */}
+      <div className="py-20 px-4 pt-28">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -80,6 +100,7 @@ export function CoHosts() {
         transition={{ duration: 0.9, delay: 0.8 }}
         className="mt-16 flex justify-center"
       ></motion.div>
+    </div>
     </section>
   );
 }
