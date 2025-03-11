@@ -1,4 +1,5 @@
-import { motion } from "framer-motion";
+
+import { motion } from 'framer-motion';
 
 const hosts = [
   { name: "", imgSrc: "/factorial-logo.png" },
@@ -18,36 +19,36 @@ export function CoHosts() {
         transition={{ duration: 0.5 }}
         className="text-center mb-16"
       >
-        <a
-          href="https://replit.com/@your-username/co-hosts"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <div className="inline-block px-12 py-12">
-            <h2 className="text-8xl md:text-[10rem] font-extrabold shimmer-text">
-              GLOSAIC
-            </h2>
-            <h2 className="text-2xl md:text-[3rem] font-extrabold tracking-wider leading-none shimmer-text">April 16, 2025</h2>
-            <div className="text-white/80 mb-8 tracking-widest pt-12 flex flex-col items-center">
-              <div>
-              </div>
-              <p className="font-extrabold text-xl">GLOSAIC is the first Global (virtual) Open Source AI Conference for developers building & using open source AI.</p>
-              <p className="font-extrabold text-lg mt-10 mb-4">Speakers will discuss:</p>
-              <ul className="list-disc mx-8 md:mx-16 pl-5 text-white/80 text-left [&>li]:mb-3">
-                <li>Frontiers of open source AI includuing local models, robotics, biology models, and agents.</li>
-                <li>Why build open source & strategies for growth that only open source affords.</li>
-                <li>The business of open source - fundraising and selling an open source company.</li>
-              </ul>
-              <p className="mt-10 italic">
-                Livestreamed on YouTube (register for the link)
-              </p>
+        <div className="inline-block px-12 py-12">
+          <h2 className="text-8xl md:text-[10rem] font-extrabold shimmer-text">
+            GLOSAIC
+          </h2>
+          <h2 className="text-2xl md:text-[3rem] font-extrabold tracking-wider leading-none shimmer-text">April 16, 2025</h2>
+          <div className="text-white/80 mb-8 tracking-widest pt-12 flex flex-col items-center">
+            <div>
             </div>
+            <p className="font-extrabold text-xl">GLOSAIC is the first Global (virtual) Open Source AI Conference for developers building & using open source AI.</p>
+            <p className="font-extrabold text-lg mt-10 mb-4">Speakers will discuss:</p>
+            <ul className="list-disc mx-8 md:mx-16 pl-5 text-white/80 text-left [&>li]:mb-3">
+              <li>Frontiers of open source AI includuing local models, robotics, biology models, and agents.</li>
+              <li>Why build open source & strategies for growth that only open source affords.</li>
+              <li>The business of open source - fundraising and selling an open source company.</li>
+            </ul>
+            <p className="mt-10 italic">
+              Livestreamed on YouTube (register for the link)
+            </p>
+          </div>
+          <a
+            href="https://replit.com/@your-username/co-hosts"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <button className="register-button bg-transparent relative py-3 px-8 rounded-md text-xl font-bold tracking-wider shimmer-text hover:text-white transition-colors duration-800">
               Register
               <span className="absolute inset-0 register-button-bg opacity-0 group-hover:opacity-100 transition-opacity duration-800"></span>
             </button>
-          </div>
-        </a>
+          </a>
+        </div>
       </motion.div>
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-6xl mx-auto text-center">
