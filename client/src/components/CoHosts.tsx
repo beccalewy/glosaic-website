@@ -27,18 +27,18 @@ export function CoHosts() {
             <h2 className="text-8xl md:text-[10rem] font-extrabold shimmer-text">
               GLOSAIC
             </h2>
-            <h2 className="text-4xl md:text-[5rem] font-extrabold tracking-wider leading-none shimmer-text">04 - 16 - 25</h2>
+            <h2 className="text-2xl md:text-[3rem] font-extrabold tracking-wider leading-none shimmer-text">April 16, 2025</h2>
             <div className="text-white/80 mb-8 tracking-widest pt-12 flex flex-col items-center">
               <div>
               </div>
-              <p>GLOSAIC is the first Global (virtual) Open Source AI Conference for developers building & using open source AI.</p>
+              <p className="font-extrabold text-xl">GLOSAIC is the first Global (virtual) Open Source AI Conference for developers building & using open source AI.</p>
               <p className="font-extrabold text-lg mt-10 mb-4">Speakers will discuss:</p>
               <ul className="list-disc mx-8 md:mx-16 pl-5 text-white/80 text-left [&>li]:mb-3">
                 <li>Frontiers of open source AI includuing local models, robotics, biology models, and agents.</li>
                 <li>Why build open source & strategies for growth that only open source affords.</li>
                 <li>The business of open source - fundraising and selling an open source company.</li>
               </ul>
-              <p className="mt-10">
+              <p className="mt-10 italic">
                 Livestreamed on YouTube (register for the link)
               </p>
             </div>
