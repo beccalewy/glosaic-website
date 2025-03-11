@@ -110,9 +110,6 @@ export function Header() {
           className="mb-8"
         >
           <div className="inline-block px-12 py-12">
-            <h1 className="text-7xl md:text-6xl font-extrabold tracking-wider shimmer-text">
-              GLOSAIC
-            </h1>
             <div className="text-white/80 mb-8 tracking-widest pt-12 flex flex-col items-center">
               <p className="text-lg font-bold">04 - 16 - 25</p>
               <p>11-3pm ET</p>
