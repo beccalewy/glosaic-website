@@ -39,19 +39,8 @@ export function CoHosts() {
                 </button>
               </a>
             </div>
-            <p className="font-extrabold text-base sm:text-lg mt-6 md:mt-10 mb-4">We'll examine...</p>
-            <ul className="list-disc mx-4 sm:mx-8 md:mx-16 pl-5 text-white/80 text-left text-sm sm:text-base [&>li]:mb-3">
-              <li>The frontiers of open source AI includuing local models, robotics, biology models, and agents.</li>
-              <li>Why build open source? What growth strategies does open source afford?</li>
-              <li>Fundraising and selling an open source company and the business of open source.</li>
-            </ul>
-            <p className="mt-6 md:mt-10 text-sm sm:text-base">
-              Virtual only (register for the link)
-            </p>
-          
-      </motion.div>
-
-      <div className="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-4 gap-4 sm:gap-8 max-w-6xl mx-auto text-center px-4 sm:px-6">
+            {/* Host logos moved here */}
+            <div className="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-4 gap-4 sm:gap-8 max-w-6xl mx-auto text-center px-4 sm:px-6">
         {hosts.map((host, index) => (
           <motion.div
             key={host.name || host.imgSrc}
@@ -64,15 +53,26 @@ export function CoHosts() {
               <img
                 src={host.imgSrc}
                 alt={host.name}
-                className="w-32 h-32 object-contain mb-4"
+                className="w-16 h-16 object-contain mb-4" // Reduced image size
               />
             </div>
-            <p className="text-white font-bold tracking-wider text-md">
+            <p className="text-white font-bold tracking-wider text-sm"> {/* Reduced text size */}
               {host.name}
             </p>
           </motion.div>
         ))}
       </div>
+            <p className="font-extrabold text-base sm:text-lg mt-6 md:mt-10 mb-4">We'll examine...</p>
+            <ul className="list-disc mx-4 sm:mx-8 md:mx-16 pl-5 text-white/80 text-left text-sm sm:text-base [&>li]:mb-3">
+              <li>The frontiers of open source AI includuing local models, robotics, biology models, and agents.</li>
+              <li>Why build open source? What growth strategies does open source afford?</li>
+              <li>Fundraising and selling an open source company and the business of open source.</li>
+            </ul>
+            <p className="mt-6 md:mt-10 text-sm sm:text-base">
+              Virtual only (register for the link)
+            </p>
+
+      </motion.div>
 
       <motion.div
         initial={{ opacity: 0, y: 20 }}
