@@ -24,8 +24,8 @@ export function CoHosts() {
             <a href="#register" className="text-white hover:text-white/70 transition-colors duration-300">Register</a>
           </div>
           <div className="md:hidden">
-            {/* Mobile menu button placeholder - could be expanded with actual mobile menu */}
-            <button className="text-white text-xl">≡</button>
+            {/* Mobile menu button placeholder - hidden for now */}
+            <button className="text-white text-xl hidden">≡</button>
           </div>
         </div>
       </nav>
