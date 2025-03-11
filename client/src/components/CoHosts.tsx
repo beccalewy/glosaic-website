@@ -47,6 +47,7 @@ export function CoHosts() {
             </div>
             <p className="font-extrabold text-base sm:text-lg md:text-xl px-2 text-center shimmer-text">April 16, 2025.</p>
             </div>
+            <div className="mt-6 md:mt-12 lg:mt-20 xl:mt-24">
               <a
                 href="https://opnform.com/forms/osaic-registration-gpxcuz"
                 target="_blank"
@@ -57,6 +58,7 @@ export function CoHosts() {
                   <span className="absolute inset-0 register-button-bg opacity-0 group-hover:opacity-100 transition-opacity duration-800"></span>
                 </button>
               </a>
+            </div>
             </div>
             {/* Host logos moved here */}
             <div className="grid grid-cols-4 gap-3 sm:gap-8 max-w-6xl mx-auto text-center px-2 sm:px-6">
