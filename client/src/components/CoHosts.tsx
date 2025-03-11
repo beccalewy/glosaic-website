@@ -33,7 +33,7 @@ export function CoHosts() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button className="register-button bg-transparent relative py-2 sm:py-3 px-6 sm:px-8 rounded-md text-base sm:text-xl font-bold tracking-wider shimmer-text hover:text-white transition-colors duration-800">
+                <button className="register-button bg-transparent relative py-3 sm:py-4 px-8 sm:px-12 rounded-md text-lg sm:text-2xl font-bold tracking-wider shimmer-text hover:text-white transition-colors duration-800">
                   Register
                   <span className="absolute inset-0 register-button-bg opacity-0 group-hover:opacity-100 transition-opacity duration-800"></span>
                 </button>
