@@ -55,6 +55,40 @@
 @import url('https://fonts.cdnfonts.com/css/jersey-10');
 
 @tailwind base;
+
+/* Responsive base styles */
+@layer base {
+  html, body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+  
+  body {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  /* Apply safe area insets for mobile devices */
+  @supports (padding: max(0px)) {
+    body {
+      padding-left: min(1rem, env(safe-area-inset-left));
+      padding-right: min(1rem, env(safe-area-inset-right));
+      padding-bottom: min(1rem, env(safe-area-inset-bottom));
+    }
+  }
+}
+
+/* Custom responsive utilities */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .text-pretty {
+    text-wrap: pretty;
+  }
+}
+
 @tailwind components;
 
 .jersey-10-regular {
