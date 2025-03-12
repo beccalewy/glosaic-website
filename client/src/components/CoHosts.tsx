@@ -4,9 +4,9 @@ const hosts = [
   { name: "", imgSrc: "/factorial-logo.png" },
   { name: "FLOWER", imgSrc: "/flowerlogo.png" },
   { name: "", imgSrc: "/huggingface-logo.png" },
-  { name: "GRADIO", imgSrc: "/gradio-logo.png" },
+  { name: "GRADIO", imgSrc: "/gradio-logo.svg" },
   { name: "", imgSrc: "/nomic-logo.png" },
-  { name: "PATRONUS", imgSrc: "/patronus_ai_inc_logo.jpeg" },
+  { name: "PATRONUS", imgSrc: "/patronus_logo.svg" },
 ];
 
 export function CoHosts() {
