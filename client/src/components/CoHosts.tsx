@@ -1,12 +1,12 @@
 import { motion } from 'framer-motion';
 
 const hosts = [
-  { imgSrc: "/factorial-logo.png" },
-  { imgSrc: "/flowerlogo.png" },
-  { imgSrc: "/huggingface-logo.svg" },
-  { imgSrc: "/gradio-logo.svg" },
-  { imgSrc: "/nomic-logo.png" },
-  { imgSrc: "/patronus_logo.svg" },
+  { imgSrc: "/factorial-logo.png", url: "https://factorial.io" },
+  { imgSrc: "/flowerlogo.png", url: "https://flower.dev" },
+  { imgSrc: "/huggingface-logo.svg", url: "https://huggingface.co" },
+  { imgSrc: "/gradio-logo.svg", url: "https://gradio.app" },
+  { imgSrc: "/nomic-logo.png", url: "https://nomic.ai" },
+  { imgSrc: "/patronus_logo.svg", url: "https://patronus.ai" },
 ];
 
 export function CoHosts() {
@@ -71,11 +71,18 @@ export function CoHosts() {
             className="flex flex-col items-center justify-center py-2"
           >
             <div className="flex justify-center w-full">
-              <img
-                src={host.imgSrc}
-                alt="Sponsor logo"
-                className="w-20 h-20 sm:w-32 sm:h-32 md:w-36 md:h-36 object-contain brightness-0 invert"
-              />
+              <a 
+                href={host.url} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="transition-opacity hover:opacity-80"
+              >
+                <img
+                  src={host.imgSrc}
+                  alt="Sponsor logo"
+                  className="w-20 h-20 sm:w-32 sm:h-32 md:w-36 md:h-36 object-contain brightness-0 invert"
+                />
+              </a>
             </div>
           </motion.div>
         ))}
