@@ -45,7 +45,7 @@ export function CoHosts() {
           <div className="text-white/80 mb-8 tracking-widest pt-6 md:pt-12 lg:pt-16 xl:pt-20 flex flex-col items-center">
             <div>
             </div>
-            <p className="font-extrabold text-base sm:text-lg md:text-xl px-2 text-center shimmer-text">April 16, 2025.</p>
+            <p className="font-extrabold text-base sm:text-lg md:text-xl px-2 text-center text-white">April 16, 2025.</p>
             </div>
             <div className="mt-6 md:mt-12 lg:mt-20 xl:mt-24">
               <a
@@ -53,7 +53,7 @@ export function CoHosts() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button className="register-button bg-transparent relative py-3 sm:py-4 px-8 sm:px-12 rounded-md text-lg sm:text-2xl font-bold tracking-wider shimmer-text hover:text-white transition-colors duration-800">
+                <button className="register-button bg-transparent relative py-3 sm:py-4 px-8 sm:px-12 rounded-md text-lg sm:text-2xl font-bold tracking-wider text-white hover:text-white transition-colors duration-800">
                   Register
                   <span className="absolute inset-0 register-button-bg opacity-0 group-hover:opacity-100 transition-opacity duration-800"></span>
                 </button>
