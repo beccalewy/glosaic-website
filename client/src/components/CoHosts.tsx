@@ -81,7 +81,7 @@ export function CoHosts() {
         ))}
       </div>
             <div className="flex justify-center w-full my-8">
-              <div className="font-extrabold text-4xl sm:text-5xl shimmer-text transform rotate-180">
+              <div className="font-medium text-4xl sm:text-5xl text-white transform rotate-180">
                 ^
               </div>
             </div>
