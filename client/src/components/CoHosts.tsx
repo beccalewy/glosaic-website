@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 const hosts = [
   { imgSrc: "/factorial-logo.png" },
   { imgSrc: "/flowerlogo.png" },
-  { imgSrc: "/huggingface-logo.png" },
+  { imgSrc: "/huggingface-logo.svg" },
   { imgSrc: "/gradio-logo.svg" },
   { imgSrc: "/nomic-logo.png" },
   { imgSrc: "/patronus_logo.svg" },
