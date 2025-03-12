@@ -88,15 +88,18 @@ export function CoHosts() {
                 ^
               </div>
             </div>
-            <p className="font-extrabold text-base sm:text-lg mt-16 md:mt-24 lg:mt-32 mb-4">We'll examine...</p>
-            <ul className="list-disc mx-4 sm:mx-8 md:mx-16 pl-5 text-white/80 text-left text-sm sm:text-base [&>li]:mb-3">
-              <li>The frontiers of open source AI includuing local models, robotics, biology models, and agents.</li>
-              <li>Why build open source? What growth strategies does open source afford?</li>
-              <li>Fundraising and selling an open source company and the business of open source.</li>
-            </ul>
-            <p className="mt-6 md:mt-10 text-sm sm:text-base">
-              Virtual only (register for the link)
-            </p>
+            
+            <div className="max-w-3xl mx-auto px-6 sm:px-10 md:px-16 mt-16 md:mt-24 lg:mt-32 mb-8 bg-black/20 backdrop-blur-sm rounded-lg py-8 border border-white/10">
+              <p className="font-extrabold text-base sm:text-lg mb-6 text-center">We'll examine...</p>
+              <ul className="list-disc pl-5 text-white/80 text-left text-sm sm:text-base [&>li]:mb-3">
+                <li>The frontiers of open source AI includuing local models, robotics, biology models, and agents.</li>
+                <li>Why build open source? What growth strategies does open source afford?</li>
+                <li>Fundraising and selling an open source company and the business of open source.</li>
+              </ul>
+              <p className="mt-8 text-sm sm:text-base text-center">
+                Virtual only (register for the link)
+              </p>
+            </div>
 
       </motion.div>
 
