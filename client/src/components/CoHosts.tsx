@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 
 const hosts = [
-  { imgSrc: "/factorial-logo.png", url: "https://factorial.io" },
+  { imgSrc: "/factorial-logo.png", url: "https://factorialcap.com" },
   { imgSrc: "/flowerlogo.png", url: "https://flower.dev" },
   { imgSrc: "/huggingface-logo.svg", url: "https://huggingface.co" },
   { imgSrc: "/gradio-logo.svg", url: "https://gradio.app" },
