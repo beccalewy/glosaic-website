@@ -74,7 +74,7 @@ export function CoHosts() {
               <img
                 src={host.imgSrc}
                 alt="Sponsor logo"
-                className="w-16 h-16 sm:w-24 sm:h-24 md:w-28 md:h-28 object-contain brightness-0 invert"
+                className="w-20 h-20 sm:w-32 sm:h-32 md:w-36 md:h-36 object-contain brightness-0 invert"
               />
             </div>
           </motion.div>
