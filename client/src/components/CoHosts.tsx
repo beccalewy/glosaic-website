@@ -1,12 +1,12 @@
 import { motion } from 'framer-motion';
 
 const hosts = [
-  { name: "", imgSrc: "/factorial-logo.png" },
-  { name: "FLOWER", imgSrc: "/flowerlogo.png" },
-  { name: "", imgSrc: "/huggingface-logo.png" },
-  { name: "GRADIO", imgSrc: "/gradio-logo.svg" },
-  { name: "", imgSrc: "/nomic-logo.png" },
-  { name: "PATRONUS", imgSrc: "/patronus_logo.svg" },
+  { imgSrc: "/factorial-logo.png" },
+  { imgSrc: "/flowerlogo.png" },
+  { imgSrc: "/huggingface-logo.png" },
+  { imgSrc: "/gradio-logo.svg" },
+  { imgSrc: "/nomic-logo.png" },
+  { imgSrc: "/patronus_logo.svg" },
 ];
 
 export function CoHosts() {
@@ -64,7 +64,7 @@ export function CoHosts() {
             <div className="grid grid-cols-4 gap-3 sm:gap-8 max-w-6xl mx-auto text-center px-2 sm:px-6">
         {hosts.map((host, index) => (
           <motion.div
-            key={host.name || host.imgSrc}
+            key={host.imgSrc}
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: index * 0.1 }}
@@ -73,13 +73,10 @@ export function CoHosts() {
             <div className="flex justify-center w-full">
               <img
                 src={host.imgSrc}
-                alt={host.name}
-                className="w-12 h-12 sm:w-16 sm:h-16 object-contain mb-2 sm:mb-4" // Smaller image size on mobile
+                alt="Sponsor logo"
+                className="w-12 h-12 sm:w-16 sm:h-16 object-contain"
               />
             </div>
-            <p className="text-white font-bold tracking-wider text-xs sm:text-sm"> {/* Smaller text on mobile */}
-              {host.name}
-            </p>
           </motion.div>
         ))}
       </div>
